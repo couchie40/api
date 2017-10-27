@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+
+	<title>Movie API</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<div class="text-center title">
+		<p>Disney Movies</p>
+	</div>
+
+	<!-- Rendered buttons will get dumped here  -->
+    <div id="buttons-view"></div>
+
+	<br>
+
+    <form id="mov-form">
+      <label id="add-show" for="mov-input">Add a movie:</label>
+      <input type="text" id="mov-input"><br>
+
+      <!-- Button triggers new movie to be added -->
+      <input id="add-mov" type="submit" value="Submit">
+    </form>
+
+    <!-- Movies will dumped Here -->
+    <div id="mov-view"></div>
+
+
+
+
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
